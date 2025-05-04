@@ -11,5 +11,8 @@ A cross-platform console game featuring an unbeatable AI using the **minimax alg
 
 ## How to Play 🎮
 1. Clone the repo:
-   ```bash
-   git clone https://github.com/YOUR_USERNAME/Tic-Tac-Toe-AI.git
+   ```bash clone with https:
+   git clone https://github.com/Rabby0501/Tic-Tac-Toe-AI.git
+
+   bash clone with SSH:
+   git@github.com:Rabby0501/Tic-Tac-Toe-AI.git
