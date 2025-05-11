@@ -1,58 +1,69 @@
-### 🎮 Tic-Tac-Toe with AI 👾
+# 🎮 Tic-Tac-Toe with AI 👾  
 
 A cross-platform console game featuring an **unbeatable AI** using the minimax algorithm.  
-Tested on Windows, Linux, and macOS.
+Tested on Windows, Linux, and macOS.  
 
-![Gameplay](screenshots/gameplay.png)
+![Gameplay](screenshots/gameplay.png)  
 
-### ✨ Features:
+---
 
-- 🧠 **Unbeatable AI** powered by the minimax algorithm
-- 📊 Dynamic score tracking (Player vs. AI)
-- 🖥️ Cross-platform support (Windows/Linux/macOS)
-- ✅ Robust input validation
-- 🔄 Play again option
+## ✨ Features  
+- 🧠 **Unbeatable AI** powered by the minimax algorithm  
+- 📊 Dynamic score tracking (Player vs. AI)  
+- 🖥️ Cross-platform support (Windows/Linux/macOS)  
+- ✅ Robust input validation  
+- 🔄 Play again option  
+
+---
+
+## 🚀 Getting Started  
+
+### Prerequisites  
+- **C++ Compiler**: `g++` (GNU Compiler Collection)  
+  - **Windows**: Install [MinGW](http://www.mingw.org/)  
+  - **Linux/macOS**:  
+    ```bash  
+    sudo apt install g++          # Debian/Ubuntu  
+    brew install gcc              # macOS  
+    ```  
+
+### Clone the Repository  
+
+# HTTPS  
+git clone https://github.com/Rabby0501/Tic-Tac-Toe-AI.git  
+
+# SSH  
+git clone git@github.com:Rabby0501/Tic-Tac-Toe-AI.git  
 
 
-### 🚀 Getting Started
-
-   # Prerequisites
-- **C++ Compiler**: `g++` (GNU Compiler Collection)
-  - Windows: Install [MinGW](http://www.mingw.org/)
-  - Linux/macOS: `sudo apt install g++` (Debian/Ubuntu) or `brew install gcc` (macOS)
-
-   ## Clone the Repository
-   ```bash/Terminal
-   1.HTTPS:
-      git clone https://github.com/Rabby0501/Tic-Tac-Toe-AI.git
-
-   2.SSH:
-      git clone git@github.com:Rabby0501/Tic-Tac-Toe-AI.git
-
-
-### How to Run & Play: 
+🕹️ How to Run & Play: 
 
 # Compile the code
-   bash/Terminal or VS Code:
-   # For Linux/macOS # For Windows
-      g++ -o tictactoe tictactoe.cpp
-      g++ -o tictactoe.exe tictactoe.cpp
+   # Linux/macOS  
+   g++ -o tictactoe src/tictactoe.cpp  
+
+   # Windows  
+   g++ -o tictactoe.exe src/tictactoe.cpp 
 
    ## Executable File (`tictactoe.exe`)  
       A pre-compiled Windows executable is included for immediate gameplay.  
 
-   ### Run:
+   # Run the Game
    # Linux/macOS
       .\tictactoe
 
    ## Windows
    1. Download `tictactoe.exe`.  
-   2. Double-click the file or run via Command Prompt:  
-      ```cmd  
+   2. Double-click the file or run via Command Prompt:   
          .\tictactoe.exe  
 
+   # Pre-Compiled Executable
+   A Windows executable (tictactoe.exe) is included in the src/ directory for immediate gameplay.
+
 ### 🧩 Game Rules:
+ 
  1. Enter 1-9 to place your mark (X) on the 3x3 grid:
+
    | 1 | 2 | 3 |
    -------------
    | 4 | 5 | 6 |
@@ -65,16 +76,17 @@ Tested on Windows, Linux, and macOS.
 
 ### 📸 Screenshots:
 1. Windows
+
 2. Linux/macOS
 
 ### 📁 Project Structure:
 
-📁 Tic-Tac-Toe-CPP/
-├── 📁 screenshot/          # Gameplay screenshot.png 
-├── 📁 src/ 
-│   ├── 📄 tictactoe.cpp    # Source code 
-│   ├── 📄 tictactoe        # Compile File for Linux/macOS
-│   └── 📄 tictactoe.exe    # Windows executable  
-├── 📄 .gitignore           # 
-├── 📄 README.md            # Compilation guide, screenshots
-└── 📄 screenshot.png       # Gameplay screenshot
+📁 Tic-Tac-Toe-CPP/  
+├── 📁 screenshots/          # Gameplay screenshots  
+├── 📁 src/  
+│   ├── 📄 tictactoe.cpp     # Source code  
+│   ├── 📄 tictactoe        # Compiled executable (Linux/macOS)  
+│   └── 📄 tictactoe.exe    # Compiled executable (Windows)  
+├── 📄 .gitignore            # Git ignore rules  
+├── 📄 README.md             # Documentation  
+└── 📄 screenshot.png        # Sample gameplay screenshot  
