@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": false,
-      "cwd": "/home/rabby/Desktop/C++/Tic-Tac-Toe-AI",
-      "program": "/home/rabby/Desktop/C++/Tic-Tac-Toe-AI/build/Debug/outDebug",
+      "cwd": "/home/rabby/Desktop/C++/Tic-Tac-Toe-AI/src",
+      "program": "/home/rabby/Desktop/C++/Tic-Tac-Toe-AI/src/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
