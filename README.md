@@ -49,7 +49,7 @@ git clone git@github.com:Rabby0501/Tic-Tac-Toe-AI.git
 
    # NB: After Compile the Windows .exe file Some this it can not run so you need to Give execute permission to the file.
    Open terminal and got to the folder where the main file and run this commend;
-   
+
       chmod +x tictactoe.exe
 
    ## Executable File (`tictactoe.exe`)  
@@ -94,6 +94,9 @@ git clone git@github.com:Rabby0501/Tic-Tac-Toe-AI.git
 1. Windows
 
 2. Linux/macOS
+![Gameplay](screenshots/Linux_macOS/start.png)
+![Gameplay](screenshots/Linux_macOS/AI-win.png)
+![Gameplay](screenshots/Linux_macOS/draw.png)
 
 ### 📁 Project Structure:
 
